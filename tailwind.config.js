@@ -3,7 +3,10 @@ module.exports = {
   content: ['./src/**/*.tsx'],
   theme: {
     extend: {
-      fontFamily: {'Poppins': 'sans-serif'},
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif'],
+        'nova': ['Nova Flat', 'sans-serif']
+      },
       colors: {
         green: {
           500: "#0FFE8D"
