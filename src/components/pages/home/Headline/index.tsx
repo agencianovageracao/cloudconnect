@@ -5,8 +5,8 @@ export const Headline: NextPage = () => {
   return (
     <section className="mt-20">
       <div className="container mx-auto">
-        <div className="flex items-center gap-5 justify-between">
-          <div className="bg-white shadow-sm px-8 py-12 rounded flex items-center justify-center gap-7">
+        <div className="flex items-center flex-col lg:flex-row gap-5 justify-between">
+          <div className="bg-white shadow-sm px-8 py-12 rounded flex items-center flex-col lg:flex-row text-center lg:text-left justify-center gap-7">
             <div>
               <IconComponent name="Cpu" size={132} color="#465CFD" />
             </div>
@@ -21,7 +21,7 @@ export const Headline: NextPage = () => {
               </p>
             </div>
           </div>
-          <div className="bg-white shadow-sm px-8 py-12 rounded flex items-center justify-center gap-7">
+          <div className="bg-white shadow-sm px-8 py-12 rounded flex items-center flex-col lg:flex-row text-center lg:text-left justify-center gap-7">
             <div>
               <IconComponent name="Cpu" size={132} color="#465CFD" />
             </div>

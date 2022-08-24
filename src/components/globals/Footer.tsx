@@ -6,11 +6,11 @@ export const Footer: NextPage = () => {
 
   return (
     <footer className="bg-white py-10">
-      <div className="container mx-auto flex justify-between">
-        <div className="w-1/2">
+      <div className="container mx-auto flex flex-col lg:flex-row justify-between">
+        <div className="w-full lg:w-1/2">
           <img
             src="/brand/logo.png"
-            className="max-w-[400px]"
+            className="max-w-[400px] w-full"
             alt="Logo"
             loading="lazy"
           />

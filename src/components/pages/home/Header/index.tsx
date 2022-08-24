@@ -12,9 +12,9 @@ export const Header: NextPage = () => {
   return (
     <header>
       <Navbar />
-      <div className="container mx-auto mt-20 flex items-center justify-between">
-        <div className="max-w-[650px] w-full">
-          <h1 className="font-nova text-[56px]">
+      <div className="container mx-auto mt-20 flex flex-col lg:flex-row text-center lg:text-left justify-center items-center lg:justify-between">
+        <div className="max-w-[650px] w-full lg:block flex flex-col items-center justify-center">
+          <h1 className="font-nova text-5xl lg:text-[56px]">
             O <span className="text-blue-500">futuro</span> do seu servidor{' '}
             <span className="text-blue-500">começa</span> aqui!
           </h1>
@@ -33,7 +33,7 @@ export const Header: NextPage = () => {
             </div>
           </button>
         </div>
-        <div className="max-w-[650px] w-full">
+        <div className="max-w-[650px] w-full hidden lg:block">
           <Image
             src="/illustration/server.svg"
             width={650}
