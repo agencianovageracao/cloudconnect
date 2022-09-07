@@ -24,8 +24,8 @@ export const Services: NextPage = () => {
           className="mt-10"
         >
           <div className="p-10 bg-white rounded shadow-sm mb-5">
-            <div className="flex items-center gap-5 flex-col md:flex-row justify-between">
-              <div className="w-full md:w-1/2">
+            <div className="flex items-center gap-5 flex-col lg:flex-row justify-between">
+              <div className="w-full lg:w-1/2">
                 <h1 className="font-nova text-4xl uppercase text-blue-500">
                   Hospedagem minecraft US
                 </h1>
@@ -47,7 +47,7 @@ export const Services: NextPage = () => {
                   <IconComponent name="ArrowRight" size={24} color="#fff" />
                 </button>
               </div>
-              <div className="w-full md:w-1/2 h-full flex justify-end">
+              <div className="w-full lg:w-1/2 h-full flex justify-end">
                 <img
                   src="/illustration/island.webp"
                   alt="Island"
@@ -58,8 +58,8 @@ export const Services: NextPage = () => {
             </div>
           </div>
           <div className="p-10 bg-white rounded shadow-sm mb-5">
-            <div className="flex items-center gap-5 flex-col md:flex-row justify-between">
-              <div className="w-full md:w-1/2">
+            <div className="flex items-center gap-5 flex-col lg:flex-row justify-between">
+              <div className="w-full lg:w-1/2">
                 <h1 className="font-nova text-4xl uppercase text-blue-500">
                   Hospedagem minecraft BR
                 </h1>
@@ -81,7 +81,7 @@ export const Services: NextPage = () => {
                   <IconComponent name="ArrowRight" size={24} color="#fff" />
                 </button>
               </div>
-              <div className="w-full md:w-1/2 h-full flex justify-end">
+              <div className="w-full lg:w-1/2 h-full flex justify-end">
                 <img
                   src="/illustration/island.webp"
                   alt="Island"
@@ -92,8 +92,8 @@ export const Services: NextPage = () => {
             </div>
           </div>
           <div className="p-10 bg-white rounded shadow-sm mb-5">
-            <div className="flex items-center gap-5 flex-col md:flex-row justify-between">
-              <div className="w-full md:w-1/2">
+            <div className="flex items-center gap-5 flex-col lg:flex-row justify-between">
+              <div className="w-full lg:w-1/2">
                 <h1 className="font-nova text-4xl uppercase text-blue-500">
                   VPS BR
                 </h1>
@@ -115,7 +115,7 @@ export const Services: NextPage = () => {
                   <IconComponent name="ArrowRight" size={24} color="#fff" />
                 </button>
               </div>
-              <div className="w-full md:w-1/2 h-full flex justify-end">
+              <div className="w-full lg:w-1/2 h-full flex justify-end">
                 <img
                   src="/illustration/server.svg"
                   alt="Island"

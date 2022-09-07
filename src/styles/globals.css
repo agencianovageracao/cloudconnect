@@ -62,3 +62,69 @@ html::-webkit-scrollbar-button {
     max-width: 1320px;
   }
 }
+
+.minecraft {
+  --light-5: #dadada;
+  --dye-font: #383838;
+  --bg-primary: #229E45;
+}
+
+.vps {
+  --light-5: #dadada;
+  --dye-font: #383838;
+  --bg-primary: #22499e;
+}
+
+.nodejs {
+  --light-5: #dadada;
+  --dye-font: #383838;
+  --bg-primary: #1db100;
+}
+
+.swap {
+  width: max-content;
+  padding: 10px 20px;
+  padding-left: 10px;
+  color: var(--dye-font);
+  font-size: 14px;
+  background: var(--light-5);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  position: relative;
+  left: -17px;
+  z-index: 2; 
+}
+
+.swap::before {
+  content: '';
+  width: 20px;
+  height: 100%;
+  background: var(--light-5);
+  clip-path: polygon(100% 0, 100% 48%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -15px;
+  z-index: 1; 
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.swap strong {
+  position: relative;
+  z-index: 2; 
+}
+
+.card:hover .swap {
+  color: #fff;
+  background: var(--bg-primary); 
+}
+
+.card:hover .swap::before {
+  background: var(--bg-primary);
+}
+
+.card:hover {
+  transform: scale(1.04);
+}
