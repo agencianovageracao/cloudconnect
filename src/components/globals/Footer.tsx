@@ -70,7 +70,7 @@ export const Footer: NextPage = () => {
         <p className="text-2xl font-bold mt-10">
           Todos os direitos reservados ₢ <span>CloudConnect</span> 2022.
         </p>
-        <a href="#">Desenvolvido com muito ❤️ por AtomCodes</a>
+        <a href="#">Desenvolvido com muito ❤️ por Nova Geração</a>
       </div>
     </footer>
   )
